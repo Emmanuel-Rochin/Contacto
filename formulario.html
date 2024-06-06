@@ -1,0 +1,57 @@
+<html>
+<body>
+    <link rel="stylesheet" href="styles/master.css"/>
+
+    <div class="contorno_menu">
+        <center> <h1 class="titulo">Sugerencias</h1> </center>
+
+
+    <h1>Nombre</h1>
+<form>
+     <!--- <label for="id_nombre">Nombre</label> -->
+      <input class="tamaño_cuadros" type="text" name="" value="">
+     
+</form>
+
+
+<h1>Email</h1>
+<form>
+    <!--- <label for="id_email">Email</label>  -->
+    <input class="tamaño_cuadros" type="text" id="id_email" name="id_email" value="">
+</form>
+</body>
+
+<h1> Razon </h1>
+<fieldset> <!--Me ayuda a separ las opciones por si hay mas preguntas-->
+<form>
+        <input type="radio" id="id_queja" name="Buzon" value="RAZON">
+        <label for="id_queja">Queja</label><br>
+
+        <input type="radio" id="id_agradacimiento" name="Buzon" value="RAZON">
+        <label for="id_agradacimiento">Agradecimiento</label><br>
+
+</form>
+</fieldset>
+
+
+<h1>Aclaracion</h1>
+<form>
+    <textarea class="tamaño_cuadro_grande" id="id_detalle" name="aclaracion"></textarea>
+</form>
+
+<center> <h1>Como nos conociste</h1> </center>
+<center>
+<form>
+    <select id="id_conociste" name="id_conociste">
+        <option value="Aun_no">Aun no</option>
+        <option value="Internet">Internet</option>
+        <option value="Recomendacion">Recomendacion</option>
+    </select>
+<br>
+<br>
+    <input class="boton_enviar" type="submit">
+
+</form>
+</center>
+</body>
+</html>
